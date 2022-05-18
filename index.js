@@ -71,7 +71,7 @@ run().catch(console.dir())
 
 
 app.get('/', (req, res) => {
-    res.send('My node server')
+    res.send('Running My node server')
 })
 
 app.listen(port, () => {
